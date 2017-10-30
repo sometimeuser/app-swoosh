@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeSc: UIViewController {
 
     @IBOutlet weak var bgimg: UIImageView!
     
@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func unwind(unwindSegue: UIStoryboardSegue){
+        
+    }
 }
 
